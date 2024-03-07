@@ -1,0 +1,1 @@
+select symbol,count(*) count_symbol from `auspicious-seat-386115`.`prod`.`adani` group by 1

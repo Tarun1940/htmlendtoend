@@ -1,0 +1,14 @@
+AdaniProject:
+  target: dev1
+  outputs:
+    prod:
+      type: bigquery
+      method: oauth-secrets
+      token: "{{ env_var('OAUTH_TOKEN') }}"
+      project: auspicious-seat-386115
+      schema: prod
+      threads: 10
+      timeout_seconds: 300
+      location: EU
+      priority: interactive
+      retries: 1

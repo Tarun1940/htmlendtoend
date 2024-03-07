@@ -1,0 +1,1 @@
+select symbol,count(*) count_symbol from {{ ref('adani') }} group by 1

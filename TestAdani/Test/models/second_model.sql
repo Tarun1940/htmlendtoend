@@ -1,0 +1,1 @@
+select count_symbol*2  as second_count from {{ref('first_model')}}

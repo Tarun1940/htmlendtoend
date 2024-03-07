@@ -1,0 +1,1036 @@
+[0m22:15:16.579244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a3a770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10806c2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10806c250>]}
+
+
+============================== 22:15:16.581735 | 6c5debd9-9471-4b0b-93c9-cd4909e40107 ==============================
+[0m22:15:16.581735 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:15:16.582043 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:15:16.582334 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/lucyswain/PycharmProjects/TestAdani/Test/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:15:16.582638 [debug] [MainThread]: Command `dbt build` failed at 22:15:16.582576 after 0.01 seconds
+[0m22:15:16.582794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a3a770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10806c310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10806c2b0>]}
+[0m22:15:16.582941 [debug] [MainThread]: Flushing usage events
+[0m22:48:12.495238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10665e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c903a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c90400>]}
+
+
+============================== 22:48:12.497796 | f5bf88c7-b3d1-4207-be4b-45f0f72d4d22 ==============================
+[0m22:48:12.497796 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:48:12.498131 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:48:12.499813 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:48:12.500143 [debug] [MainThread]: Command `dbt run` failed at 22:48:12.500083 after 0.01 seconds
+[0m22:48:12.500308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10665e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c90430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c90100>]}
+[0m22:48:12.500478 [debug] [MainThread]: Flushing usage events
+[0m22:49:13.041712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073d6740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a14400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a143d0>]}
+
+
+============================== 22:49:13.044333 | 8d00283b-7b65-49e1-80ac-3650263dc35d ==============================
+[0m22:49:13.044333 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:49:13.044661 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:49:13.046330 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:49:13.046656 [debug] [MainThread]: Command `dbt run` failed at 22:49:13.046596 after 0.01 seconds
+[0m22:49:13.046817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073d6740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a14670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a14340>]}
+[0m22:49:13.046970 [debug] [MainThread]: Flushing usage events
+[0m22:49:54.434655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104646740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102346f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102346bc0>]}
+
+
+============================== 22:49:54.437548 | 8cd25570-70d0-40ad-a2ee-586c4d30f7c2 ==============================
+[0m22:49:54.437548 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:49:54.437911 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:49:54.438229 [warn ] [MainThread]: [OpenCommand]: Unable to parse dict {'open_cmd': 'open', 'profiles_dir': PosixPath('/Users/lucyswain/.dbt')}
+[0m22:49:54.438400 [info ] [MainThread]: To view your profiles.yml file, run:
+
+ 
+[0m22:49:54.438695 [debug] [MainThread]: Command `dbt debug` succeeded at 22:49:54.438635 after 0.01 seconds
+[0m22:49:54.438859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104646740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102347dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102346bc0>]}
+[0m22:49:54.439084 [debug] [MainThread]: Flushing usage events
+[0m22:50:55.117255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069ea7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046fb640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102c8490>]}
+
+
+============================== 22:50:55.119848 | 6fb4d5a0-da01-47c3-a95f-1e17b7bac7ae ==============================
+[0m22:50:55.119848 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:50:55.120166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:50:55.120436 [info ] [MainThread]: Setting up your profile.
+[0m22:51:19.303555 [info ] [MainThread]: Profile AdaniProject written to profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:51:19.304386 [debug] [MainThread]: Command `dbt init` succeeded at 22:51:19.304256 after 24.20 seconds
+[0m22:51:19.304646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069ea7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b294e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ffea10>]}
+[0m22:51:19.304893 [debug] [MainThread]: Flushing usage events
+[0m22:51:48.459056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a0e710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060406d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106040850>]}
+
+
+============================== 22:51:48.461792 | 444931ab-d568-44d2-ae97-1ee27c936f23 ==============================
+[0m22:51:48.461792 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:51:48.462135 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:51:48.462437 [info ] [MainThread]: dbt version: 1.5.0
+[0m22:51:48.462600 [info ] [MainThread]: python version: 3.10.5
+[0m22:51:48.462755 [info ] [MainThread]: python path: /Users/lucyswain/PycharmProjects/TestAdani/venv/bin/python
+[0m22:51:48.462906 [info ] [MainThread]: os info: macOS-13.3.1-arm64-arm-64bit
+[0m22:51:48.463049 [info ] [MainThread]: Using profiles.yml file at /Users/lucyswain/PycharmProjects/TestAdani/Test/profiles.yml
+[0m22:51:48.463191 [info ] [MainThread]: Using dbt_project.yml file at /Users/lucyswain/PycharmProjects/TestAdani/Test/dbt_project.yml
+[0m22:51:48.463337 [info ] [MainThread]: Configuration:
+[0m22:51:48.620793 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:51:48.632492 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:51:48.632836 [info ] [MainThread]: Required dependencies:
+[0m22:51:48.633085 [debug] [MainThread]: Executing "git --help"
+[0m22:51:48.653993 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:51:48.654700 [debug] [MainThread]: STDERR: "b''"
+[0m22:51:48.654904 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:51:48.655097 [info ] [MainThread]: Connection:
+[0m22:51:48.655331 [info ] [MainThread]:   method: oauth
+[0m22:51:48.655483 [info ] [MainThread]:   database: auspicious-seat-386115
+[0m22:51:48.655623 [info ] [MainThread]:   schema: prod
+[0m22:51:48.655760 [info ] [MainThread]:   location: EU
+[0m22:51:48.655895 [info ] [MainThread]:   priority: interactive
+[0m22:51:48.656037 [info ] [MainThread]:   timeout_seconds: 300
+[0m22:51:48.656172 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m22:51:48.656307 [info ] [MainThread]:   execution_project: auspicious-seat-386115
+[0m22:51:48.656443 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m22:51:48.656628 [info ] [MainThread]:   job_retries: 1
+[0m22:51:48.656877 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m22:51:48.657045 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m22:51:48.657195 [info ] [MainThread]:   gcs_bucket: None
+[0m22:51:48.690758 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m22:51:48.691308 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:51:49.069565 [debug] [MainThread]: On debug: select 1 as id
+[0m22:51:53.169192 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:4af4e7e3-e5f1-42e7-977f-4fce5d6b1f33&page=queryresults
+[0m22:51:53.169554 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:51:53.169762 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:51:53.170137 [debug] [MainThread]: Command `dbt debug` succeeded at 22:51:53.170063 after 4.72 seconds
+[0m22:51:53.170315 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:51:53.170477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a0e710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bb5e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bcf550>]}
+[0m22:51:53.170677 [debug] [MainThread]: Flushing usage events
+[0m22:52:18.396389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e62770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044947f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104494820>]}
+
+
+============================== 22:52:18.398980 | dbcf869f-f7e2-406f-b715-e055fc2cb550 ==============================
+[0m22:52:18.398980 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:52:18.399298 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:52:18.595379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ff77c0>]}
+[0m22:52:18.602436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105027d60>]}
+[0m22:52:18.613014 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:52:18.613486 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:52:18.613730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050269b0>]}
+[0m22:52:18.999671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb3eb0>]}
+[0m22:52:19.002974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb0730>]}
+[0m22:52:19.003237 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:52:19.003436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dbcf869f-f7e2-406f-b715-e055fc2cb550', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050707f0>]}
+[0m22:52:19.003974 [info ] [MainThread]: 
+[0m22:52:19.004153 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m22:52:19.004391 [debug] [MainThread]: Command end result
+[0m22:52:19.007236 [debug] [MainThread]: Command `dbt run` succeeded at 22:52:19.007180 after 0.62 seconds
+[0m22:52:19.007431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e62770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050acca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050706d0>]}
+[0m22:52:19.007597 [debug] [MainThread]: Flushing usage events
+[0m22:54:48.479525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb6770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065e87f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065e8820>]}
+
+
+============================== 22:54:48.481917 | 10d9850c-36f8-4bc9-9449-f6a3f8e5838f ==============================
+[0m22:54:48.481917 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:54:48.482228 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:54:48.630257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107147790>]}
+[0m22:54:48.636908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107174280>]}
+[0m22:54:48.646490 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:54:48.664390 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m22:54:48.664716 [debug] [MainThread]: Partial parsing: added file: AdaniProject://models/first_model.sql
+[0m22:54:48.664879 [debug] [MainThread]: Partial parsing: added file: AdaniProject://seeds/adani.csv
+[0m22:54:48.676647 [debug] [MainThread]: 1699: static parser successfully parsed first_model.sql
+[0m22:54:48.696912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073c9030>]}
+[0m22:54:48.699931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072cf190>]}
+[0m22:54:48.700141 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:54:48.700347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072cf280>]}
+[0m22:54:48.700996 [info ] [MainThread]: 
+[0m22:54:48.701352 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:54:48.701829 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m22:54:48.702008 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:54:51.413279 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now create_auspicious-seat-386115_prod)
+[0m22:54:51.416513 [debug] [ThreadPool]: Creating schema "database: "auspicious-seat-386115"
+schema: "prod"
+"
+[0m22:54:51.474254 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:54:51.474605 [debug] [ThreadPool]: On create_auspicious-seat-386115_prod: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "connection_name": "create_auspicious-seat-386115_prod"} */
+create schema if not exists `auspicious-seat-386115`.`prod`
+  
+[0m22:54:54.463819 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:8a3c7e85-e9a1-41f0-a603-416c42855895&page=queryresults
+[0m22:54:54.469193 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_auspicious-seat-386115_prod, now list_auspicious-seat-386115_prod)
+[0m22:54:54.469847 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:54:54.771695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10731d150>]}
+[0m22:54:54.774129 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m22:54:54.775129 [info ] [MainThread]: 
+[0m22:54:54.782420 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m22:54:54.783206 [info ] [Thread-1 (]: 1 of 1 START seed file prod.adani .............................................. [RUN]
+[0m22:54:54.784295 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m22:54:54.784805 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m22:54:54.785434 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 22:54:54.785148 => 22:54:54.785153
+[0m22:54:54.785882 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m22:54:55.918675 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:55:02.747239 [debug] [Thread-1 (]: BigQuery adapter: Unhandled error while running:
+LOAD TABLE
+[0m22:55:02.749082 [debug] [Thread-1 (]: BigQuery adapter: Runtime Error
+  Error while reading data, error message: Could not parse '0.0' as INT64 for field stock_splits (position 9) starting at location 75  with message 'Unable to parse'
+  Error while reading data, error message: CSV processing encountered too many errors, giving up. Rows: 1; errors: 1; max bad: 0; error percent: 0
+  You are loading data without specifying data format, data will be treated as CSV format by default. If this is not what you mean, please specify data format by --source_format.
+[0m22:55:02.750657 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 22:54:54.786163 => 22:55:02.749983
+[0m22:55:02.757664 [debug] [Thread-1 (]: Runtime Error in seed adani (seeds/adani.csv)
+  Error while reading data, error message: Could not parse '0.0' as INT64 for field stock_splits (position 9) starting at location 75  with message 'Unable to parse'
+  Error while reading data, error message: CSV processing encountered too many errors, giving up. Rows: 1; errors: 1; max bad: 0; error percent: 0
+  You are loading data without specifying data format, data will be treated as CSV format by default. If this is not what you mean, please specify data format by --source_format.
+[0m22:55:02.758423 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '10d9850c-36f8-4bc9-9449-f6a3f8e5838f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107380280>]}
+[0m22:55:02.759017 [error] [Thread-1 (]: 1 of 1 ERROR loading seed file prod.adani ...................................... [[31mERROR[0m in 7.97s]
+[0m22:55:02.759587 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m22:55:02.761431 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:55:02.761779 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m22:55:02.762079 [info ] [MainThread]: 
+[0m22:55:02.762423 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 14.06 seconds (14.06s).
+[0m22:55:02.762919 [debug] [MainThread]: Command end result
+[0m22:55:02.769616 [info ] [MainThread]: 
+[0m22:55:02.770068 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m22:55:02.770338 [info ] [MainThread]: 
+[0m22:55:02.770604 [error] [MainThread]: [33mRuntime Error in seed adani (seeds/adani.csv)[0m
+[0m22:55:02.770876 [error] [MainThread]:   Error while reading data, error message: Could not parse '0.0' as INT64 for field stock_splits (position 9) starting at location 75  with message 'Unable to parse'
+[0m22:55:02.771139 [error] [MainThread]:   Error while reading data, error message: CSV processing encountered too many errors, giving up. Rows: 1; errors: 1; max bad: 0; error percent: 0
+[0m22:55:02.771391 [error] [MainThread]:   You are loading data without specifying data format, data will be treated as CSV format by default. If this is not what you mean, please specify data format by --source_format.
+[0m22:55:02.771646 [info ] [MainThread]: 
+[0m22:55:02.771921 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m22:55:02.772350 [debug] [MainThread]: Command `dbt seed` failed at 22:55:02.772281 after 14.31 seconds
+[0m22:55:02.772605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb6770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107380280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d02c80>]}
+[0m22:55:02.772856 [debug] [MainThread]: Flushing usage events
+[0m22:56:01.314038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034ca770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104afc7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104afc820>]}
+
+
+============================== 22:56:01.316665 | 0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b ==============================
+[0m22:56:01.316665 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:56:01.316987 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:56:01.474382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10565b790>]}
+[0m22:56:01.481079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056881f0>]}
+[0m22:56:01.491288 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:56:01.508513 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m22:56:01.508876 [debug] [MainThread]: Partial parsing: updated file: AdaniProject://seeds/adani.csv
+[0m22:56:01.528146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105837a90>]}
+[0m22:56:01.531213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057ebf10>]}
+[0m22:56:01.531421 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:56:01.531623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057ebe80>]}
+[0m22:56:01.532257 [info ] [MainThread]: 
+[0m22:56:01.532796 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:56:01.533384 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m22:56:01.533582 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:56:03.321737 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m22:56:03.323385 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:56:03.474809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056d97b0>]}
+[0m22:56:03.476534 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m22:56:03.477114 [info ] [MainThread]: 
+[0m22:56:03.484436 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m22:56:03.485160 [info ] [Thread-1 (]: 1 of 1 START seed file prod.adani .............................................. [RUN]
+[0m22:56:03.486180 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m22:56:03.486568 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m22:56:03.487058 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 22:56:03.486831 => 22:56:03.486836
+[0m22:56:03.487430 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m22:56:03.520814 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:56:08.613813 [debug] [Thread-1 (]: On seed.AdaniProject.adani: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "seed.AdaniProject.adani"} */
+
+    alter table `auspicious-seat-386115`.`prod`.`adani` set OPTIONS()
+  
+[0m22:56:11.676669 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:1e59055f-a20b-4c74-8208-3e47d2d691d6&page=queryresults
+[0m22:56:11.688592 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.AdaniProject.adani"
+[0m22:56:11.710895 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 22:56:03.487650 => 22:56:11.710689
+[0m22:56:11.711645 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c5419e0-5e8f-4a8c-8cdf-bc4f95bdd17b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101eec760>]}
+[0m22:56:11.712161 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file prod.adani .......................................... [[32mINSERT 1[0m in 8.23s]
+[0m22:56:11.712771 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m22:56:11.714354 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:56:11.714629 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m22:56:11.714879 [info ] [MainThread]: 
+[0m22:56:11.715201 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 10.18 seconds (10.18s).
+[0m22:56:11.715709 [debug] [MainThread]: Command end result
+[0m22:56:11.721256 [info ] [MainThread]: 
+[0m22:56:11.721597 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:56:11.721857 [info ] [MainThread]: 
+[0m22:56:11.722139 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m22:56:11.722591 [debug] [MainThread]: Command `dbt seed` succeeded at 22:56:11.722519 after 10.42 seconds
+[0m22:56:11.722860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034ca770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105836140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105834160>]}
+[0m22:56:11.723140 [debug] [MainThread]: Flushing usage events
+[0m22:58:21.644142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10483a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e68910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e68880>]}
+
+
+============================== 22:58:21.646626 | 01f8aeb5-3112-4a45-a764-27d3265c9b57 ==============================
+[0m22:58:21.646626 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:58:21.646942 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:58:21.805979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069ba320>]}
+[0m22:58:21.812608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069f84f0>]}
+[0m22:58:21.823184 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m22:58:21.841081 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m22:58:21.841422 [debug] [MainThread]: Partial parsing: updated file: AdaniProject://models/first_model.sql
+[0m22:58:21.853564 [debug] [MainThread]: 1699: static parser successfully parsed first_model.sql
+[0m22:58:21.864041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bd5600>]}
+[0m22:58:21.867233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b63f40>]}
+[0m22:58:21.867443 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:58:21.868170 [info ] [MainThread]: 
+[0m22:58:21.868535 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:58:21.869040 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m22:58:21.869199 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:58:23.573447 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m22:58:23.574448 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:58:23.765643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b63dc0>]}
+[0m22:58:23.767948 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m22:58:23.768636 [info ] [MainThread]: 
+[0m22:58:23.776897 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m22:58:23.777715 [info ] [Thread-1 (]: 1 of 2 START seed file prod.adani .............................................. [RUN]
+[0m22:58:23.778798 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m22:58:23.779279 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m22:58:23.779886 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 22:58:23.779605 => 22:58:23.779611
+[0m22:58:23.780325 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m22:58:23.810926 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:58:29.430922 [debug] [Thread-1 (]: On seed.AdaniProject.adani: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "seed.AdaniProject.adani"} */
+
+    alter table `auspicious-seat-386115`.`prod`.`adani` set OPTIONS()
+  
+[0m22:58:29.939320 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:413c906a-e193-4229-ac8e-f0fdae472028&page=queryresults
+[0m22:58:29.951873 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.AdaniProject.adani"
+[0m22:58:29.970948 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 22:58:23.780624 => 22:58:29.970729
+[0m22:58:29.971715 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bb9f00>]}
+[0m22:58:29.972275 [info ] [Thread-1 (]: 1 of 2 OK loaded seed file prod.adani .......................................... [[32mINSERT 1[0m in 6.19s]
+[0m22:58:29.972893 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m22:58:29.973559 [debug] [Thread-3 (]: Began running node model.AdaniProject.first_model
+[0m22:58:29.974196 [info ] [Thread-3 (]: 2 of 2 START sql view model prod.first_model ................................... [RUN]
+[0m22:58:29.974991 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.AdaniProject.first_model'
+[0m22:58:29.975347 [debug] [Thread-3 (]: Began compiling node model.AdaniProject.first_model
+[0m22:58:29.978326 [debug] [Thread-3 (]: Writing injected SQL for node "model.AdaniProject.first_model"
+[0m22:58:29.979305 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (compile): 22:58:29.975569 => 22:58:29.979135
+[0m22:58:29.979596 [debug] [Thread-3 (]: Began executing node model.AdaniProject.first_model
+[0m22:58:29.996337 [debug] [Thread-3 (]: Writing runtime sql for node "model.AdaniProject.first_model"
+[0m22:58:29.997004 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m22:58:29.997287 [debug] [Thread-3 (]: On model.AdaniProject.first_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.first_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`first_model`
+  OPTIONS()
+  as select symbol,count(*) count_symbol from `auspicious-seat-386115`.`prod`.`adani` group by 1;
+
+
+[0m22:58:30.840518 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:49abc8a4-3045-45c5-9463-7a88e7cc1987&page=queryresults
+[0m22:58:30.845125 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (execute): 22:58:29.979780 => 22:58:30.844805
+[0m22:58:30.846852 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '01f8aeb5-3112-4a45-a764-27d3265c9b57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bbbbb0>]}
+[0m22:58:30.848205 [info ] [Thread-3 (]: 2 of 2 OK created sql view model prod.first_model .............................. [[32mCREATE VIEW (0 processed)[0m in 0.87s]
+[0m22:58:30.849190 [debug] [Thread-3 (]: Finished running node model.AdaniProject.first_model
+[0m22:58:30.851657 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:58:30.852124 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m22:58:30.852481 [debug] [MainThread]: Connection 'model.AdaniProject.first_model' was properly closed.
+[0m22:58:30.852871 [info ] [MainThread]: 
+[0m22:58:30.853362 [info ] [MainThread]: Finished running 1 seed, 1 view model in 0 hours 0 minutes and 8.98 seconds (8.98s).
+[0m22:58:30.854444 [debug] [MainThread]: Command end result
+[0m22:58:30.863537 [info ] [MainThread]: 
+[0m22:58:30.864102 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:58:30.864482 [info ] [MainThread]: 
+[0m22:58:30.864877 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m22:58:30.865510 [debug] [MainThread]: Command `dbt build` succeeded at 22:58:30.865399 after 9.23 seconds
+[0m22:58:30.865887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10483a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ca2200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069f84f0>]}
+[0m22:58:30.866278 [debug] [MainThread]: Flushing usage events
+[0m23:02:07.792150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065ee710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c207f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c20850>]}
+
+
+============================== 23:02:07.795017 | be7f56fd-dd44-4210-9b1e-c92bf3f27227 ==============================
+[0m23:02:07.795017 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:02:07.795337 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:02:07.958980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087b33a0>]}
+[0m23:02:07.965673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10878e500>]}
+[0m23:02:07.976316 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:02:07.995049 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m23:02:07.995387 [debug] [MainThread]: Partial parsing: added file: AdaniProject://models/second_model.sql
+[0m23:02:08.007813 [debug] [MainThread]: 1699: static parser successfully parsed second_model.sql
+[0m23:02:08.018552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089884c0>]}
+[0m23:02:08.021727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108917f10>]}
+[0m23:02:08.021940 [info ] [MainThread]: Found 2 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:02:08.022688 [info ] [MainThread]: 
+[0m23:02:08.023058 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:02:08.023581 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m23:02:08.023736 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:02:08.696957 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m23:02:08.698665 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:02:08.832193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10878ec50>]}
+[0m23:02:08.834276 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m23:02:08.835022 [info ] [MainThread]: 
+[0m23:02:08.842980 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m23:02:08.843741 [info ] [Thread-1 (]: 1 of 3 START seed file prod.adani .............................................. [RUN]
+[0m23:02:08.844810 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m23:02:08.845301 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m23:02:08.845899 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 23:02:08.845640 => 23:02:08.845644
+[0m23:02:08.846317 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m23:02:08.910563 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:02:13.782682 [debug] [Thread-1 (]: On seed.AdaniProject.adani: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "seed.AdaniProject.adani"} */
+
+    alter table `auspicious-seat-386115`.`prod`.`adani` set OPTIONS()
+  
+[0m23:02:15.575300 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:1e10ffd7-2232-47b0-8693-6a74d9dae374&page=queryresults
+[0m23:02:15.586323 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.AdaniProject.adani"
+[0m23:02:15.604660 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 23:02:08.846580 => 23:02:15.604436
+[0m23:02:15.605446 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108945630>]}
+[0m23:02:15.605984 [info ] [Thread-1 (]: 1 of 3 OK loaded seed file prod.adani .......................................... [[32mINSERT 1[0m in 6.76s]
+[0m23:02:15.606611 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m23:02:15.607319 [debug] [Thread-3 (]: Began running node model.AdaniProject.first_model
+[0m23:02:15.607925 [info ] [Thread-3 (]: 2 of 3 START sql view model prod.first_model ................................... [RUN]
+[0m23:02:15.608786 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.AdaniProject.first_model'
+[0m23:02:15.609180 [debug] [Thread-3 (]: Began compiling node model.AdaniProject.first_model
+[0m23:02:15.612009 [debug] [Thread-3 (]: Writing injected SQL for node "model.AdaniProject.first_model"
+[0m23:02:15.612729 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (compile): 23:02:15.609410 => 23:02:15.612563
+[0m23:02:15.613012 [debug] [Thread-3 (]: Began executing node model.AdaniProject.first_model
+[0m23:02:15.629616 [debug] [Thread-3 (]: Writing runtime sql for node "model.AdaniProject.first_model"
+[0m23:02:15.630263 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:02:15.630544 [debug] [Thread-3 (]: On model.AdaniProject.first_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.first_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`first_model`
+  OPTIONS()
+  as select symbol,count(*) count_symbol from `auspicious-seat-386115`.`prod`.`adani` group by 1;
+
+
+[0m23:02:17.921896 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:5f92f9fc-6f91-43f0-a8c1-7a2332219402&page=queryresults
+[0m23:02:17.931884 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (execute): 23:02:15.613193 => 23:02:17.931602
+[0m23:02:17.932911 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10896d8a0>]}
+[0m23:02:17.933599 [info ] [Thread-3 (]: 2 of 3 OK created sql view model prod.first_model .............................. [[32mCREATE VIEW (0 processed)[0m in 2.32s]
+[0m23:02:17.934328 [debug] [Thread-3 (]: Finished running node model.AdaniProject.first_model
+[0m23:02:17.935101 [debug] [Thread-5 (]: Began running node model.AdaniProject.second_model
+[0m23:02:17.935801 [info ] [Thread-5 (]: 3 of 3 START sql view model prod.second_model .................................. [RUN]
+[0m23:02:17.936617 [debug] [Thread-5 (]: Acquiring new bigquery connection 'model.AdaniProject.second_model'
+[0m23:02:17.936959 [debug] [Thread-5 (]: Began compiling node model.AdaniProject.second_model
+[0m23:02:17.940054 [debug] [Thread-5 (]: Writing injected SQL for node "model.AdaniProject.second_model"
+[0m23:02:17.940942 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (compile): 23:02:17.937194 => 23:02:17.940751
+[0m23:02:17.941288 [debug] [Thread-5 (]: Began executing node model.AdaniProject.second_model
+[0m23:02:17.944463 [debug] [Thread-5 (]: Writing runtime sql for node "model.AdaniProject.second_model"
+[0m23:02:17.945053 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m23:02:17.945390 [debug] [Thread-5 (]: On model.AdaniProject.second_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.second_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`second_model`
+  OPTIONS()
+  as select count_symbol*2 from `auspicious-seat-386115`.`prod`.`first_model`;
+
+
+[0m23:02:20.482234 [debug] [Thread-5 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE VIEW columns must be named, but column 1 has no name at [6:6]')
+[0m23:02:22.611538 [error] [Thread-5 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:3dfde1e5-908b-42dc-bd78-09f1a9a39df5&page=queryresults
+[0m23:02:22.613824 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (execute): 23:02:17.941498 => 23:02:22.613223
+[0m23:02:22.624699 [debug] [Thread-5 (]: Database Error in model second_model (models/second_model.sql)
+  CREATE VIEW columns must be named, but column 1 has no name at [6:6]
+  compiled Code at target/run/AdaniProject/models/second_model.sql
+[0m23:02:22.625453 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'be7f56fd-dd44-4210-9b1e-c92bf3f27227', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a90280>]}
+[0m23:02:22.626244 [error] [Thread-5 (]: 3 of 3 ERROR creating sql view model prod.second_model ......................... [[31mERROR[0m in 4.69s]
+[0m23:02:22.626923 [debug] [Thread-5 (]: Finished running node model.AdaniProject.second_model
+[0m23:02:22.629231 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:02:22.629683 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m23:02:22.630035 [debug] [MainThread]: Connection 'model.AdaniProject.first_model' was properly closed.
+[0m23:02:22.630357 [debug] [MainThread]: Connection 'model.AdaniProject.second_model' was properly closed.
+[0m23:02:22.630745 [info ] [MainThread]: 
+[0m23:02:22.631235 [info ] [MainThread]: Finished running 1 seed, 2 view models in 0 hours 0 minutes and 14.61 seconds (14.61s).
+[0m23:02:22.632226 [debug] [MainThread]: Command end result
+[0m23:02:22.644256 [info ] [MainThread]: 
+[0m23:02:22.644931 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m23:02:22.645269 [info ] [MainThread]: 
+[0m23:02:22.649408 [error] [MainThread]: [33mDatabase Error in model second_model (models/second_model.sql)[0m
+[0m23:02:22.649796 [error] [MainThread]:   CREATE VIEW columns must be named, but column 1 has no name at [6:6]
+[0m23:02:22.650115 [error] [MainThread]:   compiled Code at target/run/AdaniProject/models/second_model.sql
+[0m23:02:22.653181 [info ] [MainThread]: 
+[0m23:02:22.653628 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+[0m23:02:22.654234 [debug] [MainThread]: Command `dbt build` failed at 23:02:22.654123 after 14.87 seconds
+[0m23:02:22.654592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065ee710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108917f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108917ca0>]}
+[0m23:02:22.654941 [debug] [MainThread]: Flushing usage events
+[0m23:02:52.967847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049b27a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062c8910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062c8880>]}
+
+
+============================== 23:02:52.970325 | 67b5bf65-3e49-402b-b352-fa980000e27b ==============================
+[0m23:02:52.970325 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:02:52.970630 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:02:53.133038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10782b790>]}
+[0m23:02:53.139750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107859420>]}
+[0m23:02:53.150090 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:02:53.167763 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:02:53.168107 [debug] [MainThread]: Partial parsing: updated file: AdaniProject://models/second_model.sql
+[0m23:02:53.180047 [debug] [MainThread]: 1699: static parser successfully parsed second_model.sql
+[0m23:02:53.190806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b25540>]}
+[0m23:02:53.194018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ac3f40>]}
+[0m23:02:53.194231 [info ] [MainThread]: Found 2 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:02:53.194995 [info ] [MainThread]: 
+[0m23:02:53.195406 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:02:53.195957 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m23:02:53.196150 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:02:55.214011 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m23:02:55.215318 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:02:55.406064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a4280>]}
+[0m23:02:55.408372 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m23:02:55.409144 [info ] [MainThread]: 
+[0m23:02:55.416921 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m23:02:55.417798 [info ] [Thread-1 (]: 1 of 3 START seed file prod.adani .............................................. [RUN]
+[0m23:02:55.418892 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m23:02:55.419371 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m23:02:55.419993 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 23:02:55.419711 => 23:02:55.419716
+[0m23:02:55.420449 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m23:02:55.486127 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:03:03.226492 [debug] [Thread-1 (]: On seed.AdaniProject.adani: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "seed.AdaniProject.adani"} */
+
+    alter table `auspicious-seat-386115`.`prod`.`adani` set OPTIONS()
+  
+[0m23:03:03.529433 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:0079ec90-8eed-4b10-b170-15869c9208d4&page=queryresults
+[0m23:03:03.540323 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.AdaniProject.adani"
+[0m23:03:03.559502 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 23:02:55.420736 => 23:03:03.559289
+[0m23:03:03.560256 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107addba0>]}
+[0m23:03:03.560815 [info ] [Thread-1 (]: 1 of 3 OK loaded seed file prod.adani .......................................... [[32mINSERT 1[0m in 8.14s]
+[0m23:03:03.561476 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m23:03:03.562177 [debug] [Thread-3 (]: Began running node model.AdaniProject.first_model
+[0m23:03:03.562863 [info ] [Thread-3 (]: 2 of 3 START sql view model prod.first_model ................................... [RUN]
+[0m23:03:03.563713 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.AdaniProject.first_model'
+[0m23:03:03.564082 [debug] [Thread-3 (]: Began compiling node model.AdaniProject.first_model
+[0m23:03:03.566948 [debug] [Thread-3 (]: Writing injected SQL for node "model.AdaniProject.first_model"
+[0m23:03:03.567647 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (compile): 23:03:03.564326 => 23:03:03.567473
+[0m23:03:03.567968 [debug] [Thread-3 (]: Began executing node model.AdaniProject.first_model
+[0m23:03:03.584706 [debug] [Thread-3 (]: Writing runtime sql for node "model.AdaniProject.first_model"
+[0m23:03:03.585217 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:03:03.585517 [debug] [Thread-3 (]: On model.AdaniProject.first_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.first_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`first_model`
+  OPTIONS()
+  as select symbol,count(*) count_symbol from `auspicious-seat-386115`.`prod`.`adani` group by 1;
+
+
+[0m23:03:04.418989 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:79cf7989-3d3d-4503-8aa2-38a3dca8779b&page=queryresults
+[0m23:03:04.431009 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (execute): 23:03:03.568155 => 23:03:04.430683
+[0m23:03:04.432165 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107858820>]}
+[0m23:03:04.432952 [info ] [Thread-3 (]: 2 of 3 OK created sql view model prod.first_model .............................. [[32mCREATE VIEW (0 processed)[0m in 0.87s]
+[0m23:03:04.433828 [debug] [Thread-3 (]: Finished running node model.AdaniProject.first_model
+[0m23:03:04.434707 [debug] [Thread-5 (]: Began running node model.AdaniProject.second_model
+[0m23:03:04.435467 [info ] [Thread-5 (]: 3 of 3 START sql view model prod.second_model .................................. [RUN]
+[0m23:03:04.436656 [debug] [Thread-5 (]: Acquiring new bigquery connection 'model.AdaniProject.second_model'
+[0m23:03:04.437145 [debug] [Thread-5 (]: Began compiling node model.AdaniProject.second_model
+[0m23:03:04.440793 [debug] [Thread-5 (]: Writing injected SQL for node "model.AdaniProject.second_model"
+[0m23:03:04.442739 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (compile): 23:03:04.437413 => 23:03:04.442521
+[0m23:03:04.443117 [debug] [Thread-5 (]: Began executing node model.AdaniProject.second_model
+[0m23:03:04.446846 [debug] [Thread-5 (]: Writing runtime sql for node "model.AdaniProject.second_model"
+[0m23:03:04.447546 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m23:03:04.447973 [debug] [Thread-5 (]: On model.AdaniProject.second_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.second_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`second_model`
+  OPTIONS()
+  as select count_symbol*2  as second_count from `auspicious-seat-386115`.`prod`.`first_model`;
+
+
+[0m23:03:07.420261 [debug] [Thread-5 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:4a6b4ba9-94b9-4285-97b3-99d553d7e973&page=queryresults
+[0m23:03:07.425870 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (execute): 23:03:04.443359 => 23:03:07.425498
+[0m23:03:07.427276 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '67b5bf65-3e49-402b-b352-fa980000e27b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10785b4f0>]}
+[0m23:03:07.428412 [info ] [Thread-5 (]: 3 of 3 OK created sql view model prod.second_model ............................. [[32mCREATE VIEW (0 processed)[0m in 2.99s]
+[0m23:03:07.430101 [debug] [Thread-5 (]: Finished running node model.AdaniProject.second_model
+[0m23:03:07.432552 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:03:07.432947 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m23:03:07.433274 [debug] [MainThread]: Connection 'model.AdaniProject.first_model' was properly closed.
+[0m23:03:07.433582 [debug] [MainThread]: Connection 'model.AdaniProject.second_model' was properly closed.
+[0m23:03:07.433976 [info ] [MainThread]: 
+[0m23:03:07.434456 [info ] [MainThread]: Finished running 1 seed, 2 view models in 0 hours 0 minutes and 14.24 seconds (14.24s).
+[0m23:03:07.435758 [debug] [MainThread]: Command end result
+[0m23:03:07.448554 [info ] [MainThread]: 
+[0m23:03:07.449199 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:03:07.449600 [info ] [MainThread]: 
+[0m23:03:07.450025 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m23:03:07.450698 [debug] [MainThread]: Command `dbt build` succeeded at 23:03:07.450579 after 14.49 seconds
+[0m23:03:07.451081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049b27a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ac3850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ac3fa0>]}
+[0m23:03:07.451513 [debug] [MainThread]: Flushing usage events
+[0m23:03:59.180765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10730a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108938940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089389a0>]}
+
+
+============================== 23:03:59.183193 | c8ea2696-9a8f-4803-9fe6-7bc47fc32da8 ==============================
+[0m23:03:59.183193 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:03:59.183502 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:59.349822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094cfa00>]}
+[0m23:03:59.356593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094ae2f0>]}
+[0m23:03:59.367186 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:03:59.386299 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:03:59.386535 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:03:59.389872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10968a320>]}
+[0m23:03:59.393242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109652380>]}
+[0m23:03:59.393453 [info ] [MainThread]: Found 2 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:03:59.394083 [info ] [MainThread]: 
+[0m23:03:59.394464 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:03:59.394984 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m23:03:59.395179 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:04:02.746757 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m23:04:02.748172 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:04:02.898198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096510c0>]}
+[0m23:04:02.899671 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m23:04:02.900709 [info ] [MainThread]: 
+[0m23:04:02.910873 [debug] [Thread-1 (]: Began running node model.AdaniProject.second_model
+[0m23:04:02.911682 [info ] [Thread-1 (]: 1 of 1 START sql view model prod.second_model .................................. [RUN]
+[0m23:04:02.912595 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now model.AdaniProject.second_model)
+[0m23:04:02.913009 [debug] [Thread-1 (]: Began compiling node model.AdaniProject.second_model
+[0m23:04:02.916795 [debug] [Thread-1 (]: Writing injected SQL for node "model.AdaniProject.second_model"
+[0m23:04:02.917738 [debug] [Thread-1 (]: Timing info for model.AdaniProject.second_model (compile): 23:04:02.913283 => 23:04:02.917503
+[0m23:04:02.918120 [debug] [Thread-1 (]: Began executing node model.AdaniProject.second_model
+[0m23:04:02.947938 [debug] [Thread-1 (]: Writing runtime sql for node "model.AdaniProject.second_model"
+[0m23:04:02.948597 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:04:02.948879 [debug] [Thread-1 (]: On model.AdaniProject.second_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.second_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`second_model`
+  OPTIONS()
+  as select count_symbol*2  as second_count from `auspicious-seat-386115`.`prod`.`first_model`;
+
+
+[0m23:04:07.973248 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:f8a052fe-1865-47f5-b998-81270a9e86b0&page=queryresults
+[0m23:04:07.995061 [debug] [Thread-1 (]: Timing info for model.AdaniProject.second_model (execute): 23:04:02.918360 => 23:04:07.994846
+[0m23:04:07.995917 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c8ea2696-9a8f-4803-9fe6-7bc47fc32da8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10970bdf0>]}
+[0m23:04:07.996557 [info ] [Thread-1 (]: 1 of 1 OK created sql view model prod.second_model ............................. [[32mCREATE VIEW (0 processed)[0m in 5.08s]
+[0m23:04:07.997192 [debug] [Thread-1 (]: Finished running node model.AdaniProject.second_model
+[0m23:04:07.998960 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:04:07.999223 [debug] [MainThread]: Connection 'model.AdaniProject.second_model' was properly closed.
+[0m23:04:07.999515 [info ] [MainThread]: 
+[0m23:04:07.999851 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 8.61 seconds (8.61s).
+[0m23:04:08.000505 [debug] [MainThread]: Command end result
+[0m23:04:08.006667 [info ] [MainThread]: 
+[0m23:04:08.007033 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:04:08.007306 [info ] [MainThread]: 
+[0m23:04:08.007607 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m23:04:08.008169 [debug] [MainThread]: Command `dbt build` succeeded at 23:04:08.008082 after 8.84 seconds
+[0m23:04:08.008486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10730a7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10966bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1096522c0>]}
+[0m23:04:08.008768 [debug] [MainThread]: Flushing usage events
+[0m23:04:24.047425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056be7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc89a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc8910>]}
+
+
+============================== 23:04:24.049489 | 71beee8d-5315-408a-9ab0-7b716af821f1 ==============================
+[0m23:04:24.049489 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:04:24.049791 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:04:24.172751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c0e440>]}
+[0m23:04:24.179373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c585e0>]}
+[0m23:04:24.188541 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:04:24.202486 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:04:24.202690 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:04:24.205881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110e19ff0>]}
+[0m23:04:24.209205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110de2050>]}
+[0m23:04:24.209415 [info ] [MainThread]: Found 2 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:04:24.210088 [info ] [MainThread]: 
+[0m23:04:24.210455 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:04:24.211007 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115'
+[0m23:04:24.211220 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:04:24.868199 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115, now list_auspicious-seat-386115_prod)
+[0m23:04:24.869807 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:04:25.016455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c59210>]}
+[0m23:04:25.018337 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m23:04:25.019451 [info ] [MainThread]: 
+[0m23:04:25.028217 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m23:04:25.029061 [info ] [Thread-1 (]: 1 of 3 START seed file prod.adani .............................................. [RUN]
+[0m23:04:25.030204 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m23:04:25.030708 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m23:04:25.031192 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 23:04:25.030981 => 23:04:25.030985
+[0m23:04:25.031546 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m23:04:25.058687 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:04:31.959464 [debug] [Thread-1 (]: On seed.AdaniProject.adani: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "seed.AdaniProject.adani"} */
+
+    alter table `auspicious-seat-386115`.`prod`.`adani` set OPTIONS()
+  
+[0m23:04:32.870709 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:24b4bf3d-58e7-4a19-bc10-ec303b4dab8c&page=queryresults
+[0m23:04:32.884136 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.AdaniProject.adani"
+[0m23:04:32.903491 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 23:04:25.031776 => 23:04:32.903267
+[0m23:04:32.904306 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ca4ca0>]}
+[0m23:04:32.904874 [info ] [Thread-1 (]: 1 of 3 OK loaded seed file prod.adani .......................................... [[32mINSERT 1[0m in 7.87s]
+[0m23:04:32.905519 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m23:04:32.906363 [debug] [Thread-3 (]: Began running node model.AdaniProject.first_model
+[0m23:04:32.906974 [info ] [Thread-3 (]: 2 of 3 START sql view model prod.first_model ................................... [RUN]
+[0m23:04:32.907790 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.AdaniProject.first_model'
+[0m23:04:32.908152 [debug] [Thread-3 (]: Began compiling node model.AdaniProject.first_model
+[0m23:04:32.911012 [debug] [Thread-3 (]: Writing injected SQL for node "model.AdaniProject.first_model"
+[0m23:04:32.911701 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (compile): 23:04:32.908384 => 23:04:32.911537
+[0m23:04:32.911998 [debug] [Thread-3 (]: Began executing node model.AdaniProject.first_model
+[0m23:04:32.928711 [debug] [Thread-3 (]: Writing runtime sql for node "model.AdaniProject.first_model"
+[0m23:04:32.929276 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:04:32.929583 [debug] [Thread-3 (]: On model.AdaniProject.first_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.first_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`first_model`
+  OPTIONS()
+  as select symbol,count(*) count_symbol from `auspicious-seat-386115`.`prod`.`adani` group by 1;
+
+
+[0m23:04:37.503061 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:bf791b2b-40bc-4619-8738-4437c9b7dbbe&page=queryresults
+[0m23:04:37.512528 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (execute): 23:04:32.912177 => 23:04:37.512228
+[0m23:04:37.513676 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110e18b20>]}
+[0m23:04:37.514493 [info ] [Thread-3 (]: 2 of 3 OK created sql view model prod.first_model .............................. [[32mCREATE VIEW (0 processed)[0m in 4.61s]
+[0m23:04:37.515360 [debug] [Thread-3 (]: Finished running node model.AdaniProject.first_model
+[0m23:04:37.516245 [debug] [Thread-5 (]: Began running node model.AdaniProject.second_model
+[0m23:04:37.517109 [info ] [Thread-5 (]: 3 of 3 START sql view model prod.second_model .................................. [RUN]
+[0m23:04:37.518237 [debug] [Thread-5 (]: Acquiring new bigquery connection 'model.AdaniProject.second_model'
+[0m23:04:37.518718 [debug] [Thread-5 (]: Began compiling node model.AdaniProject.second_model
+[0m23:04:37.522825 [debug] [Thread-5 (]: Writing injected SQL for node "model.AdaniProject.second_model"
+[0m23:04:37.523917 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (compile): 23:04:37.519028 => 23:04:37.523653
+[0m23:04:37.524335 [debug] [Thread-5 (]: Began executing node model.AdaniProject.second_model
+[0m23:04:37.567462 [debug] [Thread-5 (]: Writing runtime sql for node "model.AdaniProject.second_model"
+[0m23:04:37.568077 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m23:04:37.568328 [debug] [Thread-5 (]: On model.AdaniProject.second_model: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "node_id": "model.AdaniProject.second_model"} */
+
+
+  create or replace view `auspicious-seat-386115`.`prod`.`second_model`
+  OPTIONS()
+  as select count_symbol*2  as second_count from `auspicious-seat-386115`.`prod`.`first_model`;
+
+
+[0m23:04:39.771556 [debug] [Thread-5 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:3ac231e8-a9fc-477a-8bcb-e8b29d4ab26c&page=queryresults
+[0m23:04:39.775987 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (execute): 23:04:37.524595 => 23:04:39.775677
+[0m23:04:39.777509 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '71beee8d-5315-408a-9ab0-7b716af821f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc9930>]}
+[0m23:04:39.778565 [info ] [Thread-5 (]: 3 of 3 OK created sql view model prod.second_model ............................. [[32mCREATE VIEW (0 processed)[0m in 2.26s]
+[0m23:04:39.779473 [debug] [Thread-5 (]: Finished running node model.AdaniProject.second_model
+[0m23:04:39.781911 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:04:39.782409 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m23:04:39.782783 [debug] [MainThread]: Connection 'model.AdaniProject.first_model' was properly closed.
+[0m23:04:39.783131 [debug] [MainThread]: Connection 'model.AdaniProject.second_model' was properly closed.
+[0m23:04:39.783536 [info ] [MainThread]: 
+[0m23:04:39.784047 [info ] [MainThread]: Finished running 1 seed, 2 view models in 0 hours 0 minutes and 15.57 seconds (15.57s).
+[0m23:04:39.785430 [debug] [MainThread]: Command end result
+[0m23:04:39.793646 [info ] [MainThread]: 
+[0m23:04:39.794109 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:04:39.794478 [info ] [MainThread]: 
+[0m23:04:39.794874 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m23:04:39.795488 [debug] [MainThread]: Command `dbt build` succeeded at 23:04:39.795385 after 15.76 seconds
+[0m23:04:39.795864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056be7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110647610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110645960>]}
+[0m23:04:39.796240 [debug] [MainThread]: Flushing usage events
+[0m23:05:05.551323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d4e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1112cc850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1112cc820>]}
+
+
+============================== 23:05:05.553395 | 85adf202-0acb-4b21-ad95-ea16c169f4b6 ==============================
+[0m23:05:05.553395 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:05:05.553699 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:05.677323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '85adf202-0acb-4b21-ad95-ea16c169f4b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11201f790>]}
+[0m23:05:05.683883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '85adf202-0acb-4b21-ad95-ea16c169f4b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120543a0>]}
+[0m23:05:05.693698 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:05:05.708044 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:05:05.708277 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:05:05.711543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '85adf202-0acb-4b21-ad95-ea16c169f4b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112309db0>]}
+[0m23:05:21.957051 [error] [MainThread]: Encountered an error:
+
+[0m23:05:21.963361 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 142, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 168, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 215, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 250, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/main.py", line 301, in docs_serve
+    results = task.run()
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/serve.py", line 28, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+
+[0m23:05:21.965710 [debug] [MainThread]: Command `dbt docs serve` failed at 23:05:21.965297 after 16.42 seconds
+[0m23:05:21.966859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d4e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121d9960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121d9630>]}
+[0m23:05:21.967803 [debug] [MainThread]: Flushing usage events
+[0m23:05:28.278981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055467d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b70940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b70970>]}
+
+
+============================== 23:05:28.280932 | 0455bb56-e3d7-4d96-b4b2-597cb065fcc4 ==============================
+[0m23:05:28.280932 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:05:28.281241 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:28.403370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076fcb20>]}
+[0m23:05:28.410049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076eab90>]}
+[0m23:05:28.419160 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:05:28.433227 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:05:28.433451 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:05:28.436853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078be200>]}
+[0m23:05:28.438532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107882050>]}
+[0m23:05:28.438805 [info ] [MainThread]: Found 2 models, 0 tests, 0 snapshots, 0 analyses, 353 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:05:28.439018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107882170>]}
+[0m23:05:28.439761 [info ] [MainThread]: 
+[0m23:05:28.440192 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:05:28.440745 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_auspicious-seat-386115_prod'
+[0m23:05:28.440900 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:05:28.957521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0455bb56-e3d7-4d96-b4b2-597cb065fcc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078820e0>]}
+[0m23:05:28.958120 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+[0m23:05:28.958345 [info ] [MainThread]: 
+[0m23:05:28.962128 [debug] [Thread-1 (]: Began running node seed.AdaniProject.adani
+[0m23:05:28.962518 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_auspicious-seat-386115_prod, now seed.AdaniProject.adani)
+[0m23:05:28.962711 [debug] [Thread-1 (]: Began compiling node seed.AdaniProject.adani
+[0m23:05:28.964068 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (compile): 23:05:28.962840 => 23:05:28.963951
+[0m23:05:28.964246 [debug] [Thread-1 (]: Began executing node seed.AdaniProject.adani
+[0m23:05:28.964458 [debug] [Thread-1 (]: Timing info for seed.AdaniProject.adani (execute): 23:05:28.964354 => 23:05:28.964368
+[0m23:05:28.964892 [debug] [Thread-1 (]: Finished running node seed.AdaniProject.adani
+[0m23:05:28.965252 [debug] [Thread-3 (]: Began running node model.AdaniProject.first_model
+[0m23:05:28.965716 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.AdaniProject.first_model'
+[0m23:05:28.965931 [debug] [Thread-3 (]: Began compiling node model.AdaniProject.first_model
+[0m23:05:28.968749 [debug] [Thread-3 (]: Writing injected SQL for node "model.AdaniProject.first_model"
+[0m23:05:28.969448 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (compile): 23:05:28.966057 => 23:05:28.969335
+[0m23:05:28.969631 [debug] [Thread-3 (]: Began executing node model.AdaniProject.first_model
+[0m23:05:28.969841 [debug] [Thread-3 (]: Timing info for model.AdaniProject.first_model (execute): 23:05:28.969745 => 23:05:28.969750
+[0m23:05:28.970320 [debug] [Thread-3 (]: Finished running node model.AdaniProject.first_model
+[0m23:05:28.970628 [debug] [Thread-5 (]: Began running node model.AdaniProject.second_model
+[0m23:05:28.971027 [debug] [Thread-5 (]: Acquiring new bigquery connection 'model.AdaniProject.second_model'
+[0m23:05:28.971190 [debug] [Thread-5 (]: Began compiling node model.AdaniProject.second_model
+[0m23:05:28.972710 [debug] [Thread-5 (]: Writing injected SQL for node "model.AdaniProject.second_model"
+[0m23:05:28.973074 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (compile): 23:05:28.971296 => 23:05:28.972972
+[0m23:05:28.973247 [debug] [Thread-5 (]: Began executing node model.AdaniProject.second_model
+[0m23:05:28.973447 [debug] [Thread-5 (]: Timing info for model.AdaniProject.second_model (execute): 23:05:28.973355 => 23:05:28.973360
+[0m23:05:28.973901 [debug] [Thread-5 (]: Finished running node model.AdaniProject.second_model
+[0m23:05:28.974537 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:05:28.974700 [debug] [MainThread]: Connection 'seed.AdaniProject.adani' was properly closed.
+[0m23:05:28.974838 [debug] [MainThread]: Connection 'model.AdaniProject.first_model' was properly closed.
+[0m23:05:28.974971 [debug] [MainThread]: Connection 'model.AdaniProject.second_model' was properly closed.
+[0m23:05:28.975439 [debug] [MainThread]: Command end result
+[0m23:05:28.980757 [debug] [MainThread]: Acquiring new bigquery connection 'generate_catalog'
+[0m23:05:28.980984 [info ] [MainThread]: Building catalog
+[0m23:05:28.981395 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:05:31.321937 [debug] [ThreadPool]: Acquiring new bigquery connection 'auspicious-seat-386115.information_schema'
+[0m23:05:31.346456 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:05:31.347685 [debug] [ThreadPool]: On auspicious-seat-386115.information_schema: /* {"app": "dbt", "dbt_version": "1.5.0", "profile_name": "AdaniProject", "target_name": "dev", "connection_name": "auspicious-seat-386115.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `auspicious-seat-386115`.`prod`.__TABLES__
+        where (upper(dataset_id) = upper('prod'))
+    ),
+
+    table_options as (
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            JSON_VALUE(option_value) as table_comment
+
+        from `auspicious-seat-386115`.`prod`.INFORMATION_SCHEMA.TABLE_OPTIONS
+        where option_name = 'description'
+    ),
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `auspicious-seat-386115`.`prod`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `auspicious-seat-386115`.`prod`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+        table_options.table_comment,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join table_options using (relation_id)
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m23:05:36.232507 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=auspicious-seat-386115&j=bq:EU:6b9827d1-787a-4d71-aad8-dedc5733fed5&page=queryresults
+[0m23:05:36.258826 [info ] [MainThread]: Catalog written to /Users/lucyswain/PycharmProjects/TestAdani/Test/target/catalog.json
+[0m23:05:36.259793 [debug] [MainThread]: Command `dbt docs generate` succeeded at 23:05:36.259683 after 7.99 seconds
+[0m23:05:36.260103 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m23:05:36.260346 [debug] [MainThread]: Connection 'auspicious-seat-386115.information_schema' was properly closed.
+[0m23:05:36.260645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055467d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076eab90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a3d00>]}
+[0m23:05:36.260997 [debug] [MainThread]: Flushing usage events
+[0m23:05:44.004755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1028c6770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042cc880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042cc8b0>]}
+
+
+============================== 23:05:44.006797 | 80384e97-bbf7-4ede-a3cf-edadfd7624c1 ==============================
+[0m23:05:44.006797 [info ] [MainThread]: Running with dbt=1.5.0
+[0m23:05:44.007111 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/PycharmProjects/TestAdani/Test', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:44.131115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '80384e97-bbf7-4ede-a3cf-edadfd7624c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f16350>]}
+[0m23:05:44.137738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '80384e97-bbf7-4ede-a3cf-edadfd7624c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f54520>]}
+[0m23:05:44.147272 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m23:05:44.161109 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:05:44.161311 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:05:44.164583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '80384e97-bbf7-4ede-a3cf-edadfd7624c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a09f30>]}
+[0m23:06:04.071373 [error] [MainThread]: Encountered an error:
+
+[0m23:06:04.078537 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 142, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 168, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 215, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 250, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/main.py", line 301, in docs_serve
+    results = task.run()
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/serve.py", line 28, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+
+[0m23:06:04.080432 [debug] [MainThread]: Command `dbt docs serve` failed at 23:06:04.080166 after 20.09 seconds
+[0m23:06:04.081411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1028c6770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059d99c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059d97b0>]}
+[0m23:06:04.082307 [debug] [MainThread]: Flushing usage events

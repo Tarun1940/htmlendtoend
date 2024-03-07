@@ -1,0 +1,111 @@
+[0m22:15:36.297304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b626b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108168ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104862f80>]}
+
+
+============================== 22:15:36.299330 | 479ad31e-da52-4521-a016-2857d70959f8 ==============================
+[0m22:15:36.299330 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:15:36.299631 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:15:36.313450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '479ad31e-da52-4521-a016-2857d70959f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104863dc0>]}
+[0m22:15:36.313765 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:15:36.314076 [debug] [MainThread]: Command `dbt deps` succeeded at 22:15:36.314011 after 0.03 seconds
+[0m22:15:36.314227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b626b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10816bf40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10816b2e0>]}
+[0m22:15:36.314385 [debug] [MainThread]: Flushing usage events
+[0m22:16:31.639125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10271a710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10041af80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10041abc0>]}
+
+
+============================== 22:16:31.641108 | 67070e60-2eb8-44b9-9318-09dbb55e1b48 ==============================
+[0m22:16:31.641108 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:16:31.641407 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/lucyswain/.dbt', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:16:31.654105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '67070e60-2eb8-44b9-9318-09dbb55e1b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10041bca0>]}
+[0m22:16:31.654407 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:16:31.654726 [debug] [MainThread]: Command `dbt deps` succeeded at 22:16:31.654668 after 0.02 seconds
+[0m22:16:31.654881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10271a710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d23f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d48370>]}
+[0m22:16:31.655037 [debug] [MainThread]: Flushing usage events
+[0m22:16:37.891089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a367d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041c8310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041c83d0>]}
+
+
+============================== 22:16:37.893169 | f7badba2-47e3-48a2-8300-1f0032df4758 ==============================
+[0m22:16:37.893169 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:16:37.893475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:16:37.895058 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:16:37.895366 [debug] [MainThread]: Command `dbt build` failed at 22:16:37.895311 after 0.01 seconds
+[0m22:16:37.895514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a367d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041c9390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041c8490>]}
+[0m22:16:37.895666 [debug] [MainThread]: Flushing usage events
+[0m22:23:52.876597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10325a740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f5af80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f5abc0>]}
+
+
+============================== 22:23:52.879073 | 53ae0171-14f3-44cf-b59e-705ff5f5abeb ==============================
+[0m22:23:52.879073 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:23:52.879388 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:23:52.879652 [info ] [MainThread]: Setting up your profile.
+[0m22:25:05.850927 [error] [MainThread]: Encountered an error:
+[Errno 20] Not a directory: '/Users/lucyswain/.dbt/profiles.yml'
+[0m22:25:05.856180 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/cli/main.py", line 459, in init
+    results = task.run()
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/init.py", line 277, in run
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/init.py", line 180, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/init.py", line 167, in create_profile_from_profile_template
+    self.write_profile(profile, profile_name)
+  File "/Users/lucyswain/PycharmProjects/TestAdani/venv/lib/python3.10/site-packages/dbt/task/init.py", line 157, in write_profile
+    with open(profiles_filepath, "w") as f:
+NotADirectoryError: [Errno 20] Not a directory: '/Users/lucyswain/.dbt/profiles.yml'
+
+[0m22:25:05.857877 [debug] [MainThread]: Command `dbt init` failed at 22:25:05.857622 after 72.99 seconds
+[0m22:25:05.858526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107402530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074022f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074025c0>]}
+[0m22:25:05.859225 [debug] [MainThread]: Flushing usage events
+[0m22:27:49.938436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10521e7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bc82e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bc83a0>]}
+
+
+============================== 22:27:49.940902 | c7b82f94-32f8-485c-b946-0bf9de96be74 ==============================
+[0m22:27:49.940902 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:27:49.941214 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:27:49.942841 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:27:49.943184 [debug] [MainThread]: Command `dbt build` failed at 22:27:49.943126 after 0.01 seconds
+[0m22:27:49.943342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10521e7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bc9360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bc8520>]}
+[0m22:27:49.943503 [debug] [MainThread]: Flushing usage events
+[0m22:29:17.249600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102fa67a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045d42e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045d43a0>]}
+
+
+============================== 22:29:17.252044 | 401cfe74-69e9-456b-9f09-1952ec3a3996 ==============================
+[0m22:29:17.252044 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:29:17.252385 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/lucyswain/.dbt', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:29:17.253978 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:29:17.254286 [debug] [MainThread]: Command `dbt build` failed at 22:29:17.254228 after 0.01 seconds
+[0m22:29:17.254438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102fa67a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045d5360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045d4520>]}
+[0m22:29:17.254593 [debug] [MainThread]: Flushing usage events
+[0m22:30:04.733983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070ce770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089cc2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089cc370>]}
+
+
+============================== 22:30:04.736494 | 4478da56-e1f5-4f80-ab66-96df561e994e ==============================
+[0m22:30:04.736494 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:30:04.736830 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/lucyswain/.dbt', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:30:04.738401 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:30:04.738699 [debug] [MainThread]: Command `dbt build` failed at 22:30:04.738643 after 0.01 seconds
+[0m22:30:04.738855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070ce770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089cd330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089cc220>]}
+[0m22:30:04.739009 [debug] [MainThread]: Flushing usage events
+[0m22:47:20.794853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102cb6740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042e8400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042e83d0>]}
+
+
+============================== 22:47:20.797454 | 522fec95-db00-4e85-9742-3f3a90fc04f2 ==============================
+[0m22:47:20.797454 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:47:20.797774 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/lucyswain/PycharmProjects/TestAdani/Test/AdaniProject/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/lucyswain/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:47:20.799453 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'AdaniProject'
+[0m22:47:20.799780 [debug] [MainThread]: Command `dbt run` failed at 22:47:20.799720 after 0.01 seconds
+[0m22:47:20.799937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102cb6740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042e8670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042e8250>]}
+[0m22:47:20.800098 [debug] [MainThread]: Flushing usage events

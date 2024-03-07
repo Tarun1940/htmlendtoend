@@ -1,0 +1,13 @@
+AdaniProject:
+  outputs:
+    dev:
+      dataset: prod
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: EU
+      method: oauth
+      priority: interactive
+      project: auspicious-seat-386115
+      threads: 10
+      type: bigquery
+  target: dev
